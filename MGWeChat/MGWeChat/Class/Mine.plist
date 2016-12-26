@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>iconName</key>
+			<string>ff_IconShowAlbum</string>
+			<key>titleName</key>
+			<string>相册</string>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>MoreMyFavorites</string>
+			<key>titleName</key>
+			<string>收藏</string>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>MoreMyBankCard</string>
+			<key>titleName</key>
+			<string>钱包</string>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>MyCardPackageIcon</string>
+			<key>titleName</key>
+			<string>卡券</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>iconName</key>
+			<string>MoreExpressionShops</string>
+			<key>titleName</key>
+			<string>表情</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>iconName</key>
+			<string>MoreSetting</string>
+			<key>titleName</key>
+			<string>设置</string>
+		</dict>
+	</array>
+</array>
+</plist>

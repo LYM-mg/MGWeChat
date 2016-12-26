@@ -1,0 +1,83 @@
+//
+//  PrefixHeader.pch
+//  MGWeChat
+//
+//  Created by ming on 16/8/16.
+//  Copyright © 2016年 ming. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#pragma mark - -------------------------第三方-------------------------
+//#import "EMSDKFull.h"
+//#import "EaseUI.h"
+//#import "EMClient.h"
+//#import "EMClientDelegate.h"
+
+#import "Masonry.h"
+#import "MJExtension.h"
+#import "UIImageView+WebCache.h"
+#import "MBProgressHUD+XMG.h"
+#import "MJRefresh.h"
+#import "AFNetworking.h"
+#import "UIImageView+AFNetworking.h"
+
+
+#pragma mark - ------------------------- 分类 -------------------------
+
+#import "UIView+Extension.h"
+#import "UIImage+Extension.h"
+#import "UILabel+Extension.h"
+#import "UIImageView+Extension.h"
+#import "UIView+gesture.h"
+#import "UIView+Extension.h"
+#import "UIColor+Extension.h"
+#import "UIButton+Extension.h"
+#import "NSString+Extension.h"
+#import "UIBarButtonItem+Extension.h"
+#import "NSDate+Extension.h"
+#import "UIAlertView+Extension.h"
+
+#import "GlobalConst.h"
+#pragma mark - -------------------------常用宏-------------------------
+// 1.颜色
+#define MGRGBColor(r,g,b) [UIColor colorWithRed:((r)/255.0) green:((g)/255.0) blue:((b)/255.0) alpha:1.0]
+
+#define MGRGBAColor(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+
+// 2.随机色
+#define MGRandomColor MGRGBColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+#define MGNavBarTiniColor MGRGBColor(172,44,42)
+
+// 3.是否为iOS7
+#define IOS7 ([[UIDevice currentDevice].systemVersion doubleValue] >= 7.0)
+#define IOS9 ([[UIDevice currentDevice].systemVersion doubleValue] >= 9.0)
+
+// 4.是否为4inch
+#define IS_IPHONE4 ([UIScreen mainScreen].bounds.size.height == 480)
+#define IS_IPHONE5 ([UIScreen mainScreen].bounds.size.height == 568)
+
+// 5.屏幕尺寸
+#define MGScreenW [UIScreen mainScreen].bounds.size.width
+#define MGScreenH [UIScreen mainScreen].bounds.size.height
+
+// 6.自定义Log
+#ifdef DEBUG
+#define MGLog(...) NSLog(__VA_ARGS__)
+#else
+#define MGLog(...)
+#endif
+
+#define MGFont(fontSize) [UIFont systemFontOfSize:(fontSize)]
+#define MGPE(objc)  [MBProgressHUD showError:objc]
+#define MGPS(objc)  [MBProgressHUD showSuccess:objc]
+
+// 7.通知
+#define MGNotificationCenter [NSNotificationCenter defaultCenter]
+
+// 8.弱引用
+#define weakSelf(objc) typeof(objc) __weak weakSelf = objc;
+
+
+#endif /* PrefixHeader_pch */

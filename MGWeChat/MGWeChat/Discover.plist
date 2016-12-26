@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>iconName</key>
+			<string>ff_IconShowAlbum</string>
+			<key>titleName</key>
+			<string>朋友圈</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>iconName</key>
+			<string>ff_IconQRCode</string>
+			<key>titleName</key>
+			<string>扫一扫</string>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>ff_IconShake</string>
+			<key>titleName</key>
+			<string>摇一摇</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>iconName</key>
+			<string>ff_IconLocationService</string>
+			<key>titleName</key>
+			<string>附近的人</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>iconName</key>
+			<string>CreditCard_ShoppingBag</string>
+			<key>titleName</key>
+			<string>购物</string>
+		</dict>
+		<dict>
+			<key>iconName</key>
+			<string>MoreGame</string>
+			<key>titleName</key>
+			<string>游戏</string>
+		</dict>
+	</array>
+</array>
+</plist>
